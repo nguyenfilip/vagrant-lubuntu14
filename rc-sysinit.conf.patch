@@ -1,0 +1,11 @@
+--- rc-sysinit.conf.old	2016-09-16 16:37:02.530935999 +0000
++++ rc-sysinit.conf	2016-09-15 21:14:13.398682458 +0000
+@@ -11,7 +11,7 @@
+ 
+ # Default runlevel, this may be overriden on the kernel command-line
+ # or by faking an old /etc/inittab entry
+-env DEFAULT_RUNLEVEL=2
++env DEFAULT_RUNLEVEL=5
+ 
+ emits runlevel
+ 
